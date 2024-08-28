@@ -1,0 +1,65 @@
+.headerContainer {
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white; /*Ensures content underneath doesn't show through*/
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.bottomInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seatInfoBtn {
+  background-color: antiquewhite;
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 75px;
+}
+
+.secondaryHeader {
+  padding: 20px 35px;
+  background-color: aliceblue;
+}
+
+.secondaryText {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.timings {
+  display: flex;
+  gap: 20px;
+}
+
+.timings span {
+  font-size: 0.9em;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  color: #1f2225;
+  cursor: pointer;
+}
+.timings span:hover {
+  background-color: #45eb45e3;
+}
+
+.applySelect {
+  background-color: #59f059e3 !important;
+}
+
+/* ******************************************************************************************* */
+/* Seating Arrangement CSS */

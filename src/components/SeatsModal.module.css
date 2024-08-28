@@ -1,0 +1,116 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/*
+
+1] In the modal component example I provided earlier, the 'z-index: 1000;' is applied to the 
+   '.modalOverlay' class. This ensures that the modal overlay, which dims the background and 
+   contains the modal content, appears on top of all other elements on the page. 
+   
+2] This is crucial for making the modal stand out and ensuring it isn't hidden behind other 
+   page elements.
+
+3] By setting a high z-index value like 1000, you're making sure that the modal is highly prioritized 
+   in the stacking context, so it appears on top of nearly everything else on the page.
+
+*/
+
+.modal {
+  background: #fff;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90%;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+.modalHeader {
+  margin-bottom: 20px;
+}
+
+.modalHeader h2 {
+  font-size: 1.5em;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.scooterImage {
+  width: 222px;
+  /* margin: 10px 0; */
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seatNumbers {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.seatNumber {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.seatNumber.selected {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.seatTypes {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 0.9em;
+}
+
+.seatType {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.available {
+  color: green;
+}
+
+.selectSeatsButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}

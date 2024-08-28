@@ -1,0 +1,110 @@
+.theaterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.theaterItem {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theaterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.theaterHeader h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9em;
+  color: #6c757d;
+}
+
+.ticket {
+  color: rgb(7, 182, 7);
+}
+
+.beverage {
+  color: orange;
+}
+
+.showTimings {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.priceDropdown {
+  display: none; /* Hide by default */
+  flex-direction: column;
+  gap: 5px;
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.priceDropdown span {
+  font-size: 0.9em;
+  color: #28a745;
+}
+
+.timings {
+  display: flex;
+  gap: 20px;
+}
+
+.timings span {
+  font-size: 0.9em;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  color: #1f2225;
+  cursor: pointer;
+}
+.timings span:hover {
+  background-color: #45eb45e3;
+}
+
+/* 
+1] The adjacent sibling selector (+) targets an element that is immediately following another 
+   element in the DOM.
+
+    .element1 + .element2 {
+       background-color: yellow;
+    }
+
+    This targets '.element2' only if it directly follows '.element1' in the DOM.
+
+*/
+.timings span:hover + .priceDropdown {
+  display: flex; /* Show dropdown when hovering over the specific span */
+}
+
+.cancellation {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #ffc107;
+}
+
+.cancellation span {
+  color: #ffca28;
+}

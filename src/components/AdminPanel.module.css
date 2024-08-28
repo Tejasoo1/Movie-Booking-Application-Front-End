@@ -1,0 +1,15 @@
+.PanelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.Panelbtn {
+  padding: 12px 24px;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+  color: azure;
+  border-radius: 10px;
+}

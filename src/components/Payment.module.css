@@ -1,0 +1,156 @@
+.bookingSummaryContainer {
+  width: 380px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.summaryBox {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.summaryTitle {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.contribution {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.addButton {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stateNotice {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin: 10px 0;
+}
+
+.amountPayable {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffeb99;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.amount {
+  color: red;
+}
+
+.ticketType {
+  text-align: center;
+}
+
+.ticketTypeTitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.ticketOptions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option input {
+  margin-right: 10px;
+}
+
+.option img {
+  height: 160px;
+}
+
+.BoxOfficeImg {
+  height: 150px !important;
+  /* width: 100px; */
+}
+
+.notice {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.totalAmount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffeb99;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.proceedButton {
+  background-color: red;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ******************************************************************************************* */
+/* Header */
+.headerContainer {
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white; /*Ensures content underneath doesn't show through*/
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.bottomInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

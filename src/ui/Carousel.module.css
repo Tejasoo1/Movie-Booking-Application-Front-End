@@ -1,0 +1,63 @@
+.carouselOuterDiv {
+  overflow: visible;
+  /* position: relative; */
+  height: 100%;
+  width: 1400px;
+  margin: 0 auto;
+  /* padding: 25px 0px; */
+}
+
+.carousel {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+
+.imagecontainer {
+  display: flex;
+  height: 100%;
+  width: fit-content;
+  transition: transform 0.5s ease-in-out;
+}
+
+.imageStyle {
+  /* height: 100%; */
+
+  width: 280px; /* Example width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image fills the box */
+  cursor: pointer;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  padding: 12px 24px;
+  color: #fff;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+  width: 50px; /* Set width for buttons */
+  height: 50px; /* Set height for buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Rounded buttons */
+}
+
+.prev {
+  /* left: 50px; */
+  left: 0px;
+}
+
+.next {
+  /* right: 50px; */
+  right: 0px;
+}
+
+/* *************************************************************************************** */

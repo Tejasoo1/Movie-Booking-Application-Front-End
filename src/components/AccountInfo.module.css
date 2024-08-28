@@ -1,0 +1,23 @@
+.accountContainer {
+  padding: 12px;
+  width: 160px;
+  background-color: rgba(253, 252, 249, 0.822);
+  /* overflow: scroll; */
+  position: absolute;
+  right: 12px;
+  top: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signoutBtn {
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: rgb(247, 9, 61);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}

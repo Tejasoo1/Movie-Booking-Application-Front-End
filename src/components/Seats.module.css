@@ -1,0 +1,110 @@
+/* Seating Arrangement CSS */
+.theater {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 0 auto;
+  width: 1100px;
+  justify-content: flex-start;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.category {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid rgb(202, 200, 200);
+}
+
+table {
+  border-spacing: 5px;
+}
+
+tr {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 8px;
+}
+
+.letter {
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 14px;
+  /* color: #b3b3b3; */
+}
+
+.forHLetter {
+  padding: 11px;
+}
+
+.seatSelected {
+  background-color: #4caf50 !important;
+  color: white;
+}
+
+.seatDec {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #1ea83c;
+  background-color: #f5f5f5;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.seatDec:hover {
+  background-color: #ddd;
+}
+
+.seatSold {
+  background-color: #b6b4b4 !important;
+  cursor: not-allowed;
+  border: 1px solid #b6b4b4;
+}
+
+.paymentBtn {
+  padding: 15px 25px;
+  width: 100%;
+  position: sticky;
+  background-color: #ce3434; /*Ensures content underneath doesn't show through*/
+  z-index: 1000;
+  bottom: 0px;
+  left: 25%;
+  color: black;
+  font-weight: 600;
+  /* background-color: white;  */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.MfiveSeat {
+  margin-left: 406px;
+}
+
+.GfourSeat {
+  margin-left: 60px;
+}
+
+.eighteen {
+  margin-left: 70px;
+}
+
+.fourteen {
+  margin-left: 70px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .imageContainer img {
+} */

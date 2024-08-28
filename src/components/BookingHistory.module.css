@@ -1,0 +1,66 @@
+.purchaseHistory {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.ticketCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dateSection {
+  background-color: #e0e0e0;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #555555;
+}
+
+.ticketDetails {
+  display: flex;
+  padding: 15px;
+}
+
+.moviePoster {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.details {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.details h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.details p {
+  margin: 4px 0;
+  color: #666666;
+}
+
+.ticketsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.ticketsSection span {
+  font-weight: bold;
+  color: #333333;
+}
+
+.cancelled {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

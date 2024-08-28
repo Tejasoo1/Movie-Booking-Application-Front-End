@@ -1,0 +1,119 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.137);
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.header h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  color: #34ade6;
+}
+
+.header p {
+  font-size: 16px;
+  color: #777;
+  font-style: oblique;
+  font-weight: 400;
+}
+
+.formLabel {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formButton {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #45a049;
+}
+
+.signInContainer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signInBtn {
+  padding: 10px;
+  background-color: #0bb658;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signInBtn:hover {
+  background-color: #25d172;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2px;
+  margin-top: 20px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.errorButton {
+  margin-top: 5px;
+  padding: 12px 20px;
+  background-color: #4caf65;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.errorButton:hover {
+  background-color: #45a049;
+}
+
+.resultMessage {
+  margin-top: 20px;
+  background-color: #45a049;
+  color: azure;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+}
